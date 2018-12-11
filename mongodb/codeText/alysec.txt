@@ -1,0 +1,10 @@
+db.customer.insert({fname:"Alyse", mname:"Michelle", lname:"Clements", address:"1245 W Front Street", city:"Eagle", state:"ID", zip:"83616", phone:"208-123-4567", entrant:"AlyseC"});
+db.customer.insert({fname:"Joe", mname:"Steven", lname:"Johnson", address:"1897 S Park Lane", city:"Boise", state:"ID", zip:"83713", phone:"208-998-5897", entrant:"AlyseC"});
+db.customer.insert({fname:"David", mname:"John", lname:"Anderson", address:"1569 E Broadway Avenue", city:"Boise", state:"ID", zip:"83713", phone:"208-112-3698", entrant:"AlyseC"});
+db.customer.insert({fname:"Jessica", mname:"Ann", lname:"Clark", address:"2002 S Chadford Dr", city:"Meridian", state:"ID", zip:"83646", phone:"208-995-0004", entrant:"AlyseC"});
+db.customer.insert({fname:"Hannah", mname:"Marie", lname:"Davidson", address:"2154 N Cherry Lane", city:"Meridian", state:"ID", zip:"83646", phone:"208-789-5217", entrant:"AlyseC"});
+db.customer.insert({fname:"Tyler", mname:"Joe", lname:"Fisher", address:"2089 W Elmer Street", city:"Eagle", state:"ID", zip:"83616", phone:"208-221-7658", entrant:"AlyseC"});
+db.customer.insert({fname:"Brittany", mname:"Julie", lname:"Jones", address:"9856 5th Street", city:"Boise", state:"ID", zip:"83713", phone:"208-785-5217", entrant:"AlyseC"});
+db.customer.insert({fname:"Tony", mname:"David", lname:"Thompson", address:"1172 E Orchard Avenue", city:"Boise", state:"ID", zip:"83713", phone:"208-879-0012", entrant:"AlyseC"});
+db.customer.insert({fname:"James", mname:"Michael", lname:"Little", address:"2789 S Weston Dr", city:"Eagle", state:"ID", zip:"83616", phone:"208-877-0054", entrant:"AlyseC"});
+db.customer.insert({fname:"Brooke", mname:"Julianne", lname:"Kelly", address:"7122 N Hempstead Way", city:"Meridian", state:"ID", zip:"83646", phone:"208-999-8700", entrant:"AlyseC"});

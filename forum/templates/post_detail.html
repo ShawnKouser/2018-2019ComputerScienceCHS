@@ -1,0 +1,20 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+    <div class="post">
+        {% if post.target_date %}
+            <div class="date">
+                {{ post.author }}
+                {{ post.target_date }}
+            </div>
+        {% endif %}
+    {% if post.author == request.user %}
+       <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">Edit Post</a>&nbsp
+        <a class="w3-hover-border-aqua" href="{% url 'post_delete' pk=post.pk %}">Delete Post</a>
+    {% endif %}
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+
+
+    </div>
+{% endblock %}

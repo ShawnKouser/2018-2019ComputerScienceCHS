@@ -1,0 +1,11 @@
+
+
+db.products.find(
+	{
+		state:{"ID"}
+	},
+	{
+		_id:0
+	}
+).sort({_id:1});
+

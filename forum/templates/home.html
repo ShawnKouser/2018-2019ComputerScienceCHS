@@ -1,0 +1,28 @@
+{% extends 'base_generic.html' %}
+{% block title %}Home{% endblock %}
+<br>
+{% block left %}
+    <ul>
+    {% for post in posts %}
+
+        <li>
+        <a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a>
+
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
+{% block content %}
+
+    {% if user.is_authenticated %}
+        <div id="head1">
+        Hello {{ user.username }}
+
+        </div>
+    {% else %}
+        <p>You are not logged in</p>
+        <br>
+       <!-- <h4><a href=" url 'create_account' ">Create an account?</a></h4>-->
+    {% endif %}
+
+{% endblock %}

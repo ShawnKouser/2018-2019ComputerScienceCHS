@@ -1,0 +1,22 @@
+
+
+db.customer.insert({fname:"Michael", lname:"Celeverdon", mname:"Ben", address:"124 W apgar street", city:"Meridian", state:"ID", zip:"83646", phone:"2085595656", entrant:"HunterF"});
+
+db.customer.insert({fname:"Jacob", lname:"Rountree", mname:"David", address:"2559 E Bacall Street", city:"Meridian", state:"ID", zip:"83646", phone:"2087876251", entrant:"HunterF"});
+
+db.customer.insert({fname:"Connor", lname:"Godfrey", mname:"Nick", address:"1245 S Linder rd", city:"Meridian", state:"ID", zip:"83642", phone:"208458412", entrant:"HunterF"});
+
+db.customer.insert({fname:"John", lname:"Stutson", mname:"Jack", address:"2356 N Franklin rd", city:"Eagle", state:"ID", zip:"83646", phone:"2084589216", entrant:"HunterF"});
+
+db.customer.insert({fname:"Joe", lname:"Von", mname:"Stueben", address:"2031 E Hill street", city:"McCall", state:"ID", zip:"83245", phone:"2083264589", entrant:"HunterF"});
+
+db.customer.insert({fname:"Joan", lname:"Joseph", mname:"Benji", address:"5489 E apgar street", city:"Meridian", state:"ID", zip:"83646", phone:"208326481", entrant:"HunterF"});
+
+db.customer.insert({fname:"Cornell", lname:"Ivan", mname:"Steve", address:"2105 S Colonial street", city:"Nampa", state:"ID", zip:"83653", phone:"2082156594", entrant:"HunterF"});
+
+db.customer.insert({fname:"Steven", lname:"Buchman", mname:"Allen", address:"6598 N Bunker rd", city:"Nampa", state:"ID", zip:"83653", phone:"2088602564", entrant:"HunterF"});
+
+db.customer.insert({fname:"Ryan", lname:"Durbin", mname:"Grayson", address:"2305 W Country rd", city:"Kuna", state:"ID", zip:"8352", phone:"2083265014", entrant:"HunterF"});
+
+db.customer.insert({fname:"Jon", lname:"Paul", mname:"Jones", address:"2359 S seaward street", city:"McCall", state:"ID", zip:"83245", phone:"2082159652", entrant:"HunterF"});
+

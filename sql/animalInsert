@@ -1,0 +1,1 @@
+INSERT INTO animals VALUES (null, "cat", "JoJo", "male", 2004,8) (null, "dog", "Monkey", "female", 2008, 9) (null, "parrot", "Polly", "male", 2012, 12) (null, "dog", "BoBo", "male", 2016, 1)

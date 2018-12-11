@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>John Houser</title>
+    <style>
+	pre {
+		background-color: black;
+		color: white;
+		padding: 5px;
+		width: fit;
+	}
+    </style>
+  </head>
+	<p> <a href="../index.html"> back </a> </p>
+  	<div style="text-align: center">
+		<h1> mongodb find, filter, and projection by john houser</h1>
+		<pre style="margin-bottom: 0px;">db.collectionName.find(); </pre>
+		<pre style="background-color: green; margin-top: 0px;">Output: lists items in collection </pre>
+		<p> This is how you find all items in a mongodb </p>
+		<pre style="margin-bottom: 0px;">db.products.find({"price": {$gt: 5.00, $lt: 9.00}});</pre>
+		<pre style="background-color: green; margin-top: 0px;">Output: shows items greater than 5 and less than 9 </pre>
+	
+		<p> This is how you would filter a search (in this case it would find items more expensive than 5 but less expensive than 9) </p>
+		<pre style="margin-bottom: 0px">db.products.find({"price": {$gt: 5.00, $lt: 9.00}},{_id:0, description:0});</pre>
+		<pre style="background-color: green; margin-top: 0px;">Output: shows items greater than 5 and less than 9 but does not include the fields id and description </pre>
+		<p> The second part of the expression represents the projection. This would not include the id elements and the description.  </p>
+	</div>
+  <body>
+    
+    
+  </body>
+
+</html>

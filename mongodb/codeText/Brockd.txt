@@ -1,0 +1,10 @@
+db.customer.insert([{"fname":"Jimmy", "mname":"Lemon", "lname":"Scott", "address":"6569 Cherry Lane", "city":"Boise", "state":"ID", "zip":"83617", "phone":"2084517532", "entrant":"BrockD"}, 
+{"fname":"Mike", "mname":"Smithers", "lname":"Smith", "address":"3244 Smith Street", "city":"New Haven", "state":"CT", "zip":"06501", "phone":"2089065248", "entrant":"BrockD"},
+{"fname":"Tim", "mname":"Alfred", "lname":"Jefferson", "address":"322 Maple Grove", "city":"New York City", "state":"NY", "zip":"10001", "phone":"2089760021", "entrant":"BrockD"},
+{"fname":"Tyrone", "mname":"Alexander", "lname":"Adams", "address":"4473 West Lake Drive", "city":"New Braunfels", "state":"TX", "zip":"78130", "phone":"2089268431", "entrant":"BrockD"},
+{"fname":"Don", "mname":"Fredrick", "lname":"Hickman", "address":"224 South Main Street", "city":"Thousand Oaks","state":"CA", "zip":"91319", "phone":"2088832134", "entrant":"BrockD"},
+{"fname":"Jim", "mname":"Blake", "lname":"Jones", "address":"374 East Main Street", "city":"Detroit", "state":"MI", "zip":"48127", "phone":"2088850909", "entrant":"BrockD"},
+{"fname":"Stacy", "mname":"Ann", "lname":"Mcgregor", "address":"894 Shore Drive", "city":"South Beach", "state":"FL", "zip":"33139", "phone":"2081234312", "entrant":"BrockD"},
+{"fname":"Kate", "mname":"Lizzy", "lname":"Tate", "address":"7332 North Emerald Street", "city":"Denver", "state":"CO", "zip":"80014", "phone":"2086654712", "entrant":"BrockD"},
+{"fname":"Susan", "mname":"Larry", "lname":"Howe", "address":"5418 East South Street", "city":"Phoenix", "state":"AZ", "zip":"85001", "phone":"2087732143", "entrant":"BrockD"},
+{"fname":"Hollie", "mname":"Dom", "lname":"Rodregiez", "address":"4437 West Chamberline Road", "city":"Washinton DC", "state":"DC", "zip":"20001", "phone":"2082535543", "entrant":"BrockD"}]);

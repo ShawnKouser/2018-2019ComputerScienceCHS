@@ -1,0 +1,10 @@
+db.customer.insert({fname:"Kado", mname:"", lname:"Tagashiki", address:"3556 Merlinus Way", city:"Boise", state:"ID", zip:"83701", phone:"208-991-7761", entrant:"Clayton W"});
+db.customer.insert({fname:"Takumi", mname:"", lname:"Shuuya", address:"4562 Holocron Drive", city:"Boise", state:"ID", zip:"83701", phone:"", entrant:"Clayton W"});
+db.customer.insert({fname:"Kano", mname:"", lname:"Takahashi", address:"3547 Merlinus Way", city:"Boise", state:"ID", zip:"83701", phone:"208-987-7231", entrant:"Clayton W"});
+db.customer.insert({fname:"Umu", mname:"", lname:"Romania", address:"2467 Regulus Way", city:"Boise", state:"ID", zip:"83701", phone:"2208-782-7712", entrant:"Clayton W"});
+db.customer.insert({fname:"Zasshu", mname:"", lname:"Gilgamein", address:"3657 Magnus Way", city:"Boise", state:"ID", zip:"83701", phone:"208-981-7761", entrant:"Clayton W"});
+db.customer.insert({fname:"Shirou", mname:"", lname:"Emiya", address:"4356 Saurius Way", city:"Boise", state:"ID", zip:"83701", phone:"208-777-7770", entrant:"Clayton W"});
+db.customer.insert({fname:"Kau", mname:"Kana", lname:"Tagarin", address:"3566 Merlinus Way", city:"Boise", state:"ID", zip:"83701", phone:"208-999-0061", entrant:"Clayton W"});
+db.customer.insert({fname:"Kassius", mname:"", lname:"Grimmson", address:"2470 Regulus Way", city:"Boise", state:"ID", zip:"83701", phone:"208-976-7211", entrant:"Clayton W"});
+db.customer.insert({fname:"Arthur", mname:"", lname:"Ucures", address:"3678 Magnus Way", city:"Boise", state:"ID", zip:"83701", phone:"208-223-7761", entrant:"Clayton W"});
+db.customer.insert({fname:"Kaleid", mname:"", lname:"Illya", address:"3426 Liner Road", city:"Boise", state:"ID", zip:"83701", phone:"208-291-5361", entrant:"Clayton W"});

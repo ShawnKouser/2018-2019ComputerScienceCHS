@@ -1,0 +1,26 @@
+
+##### 3 - Table Join ####
+SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName
+FROM ((customer
+INNER JOIN animal ON customer.IDcustomer = animal.IDcustomer) 
+INNER JOIN diagnosis ON animal.IDanimal = diagnosis.IDanimal);
+
+SELECT customer.fname, customer.lname, animal.species, animal.name, diagnosis.evaluation
+FROM ((customer
+INNER JOIN animal ON customer.IDcustomer = animal.IDcustomer)
+INNER JOIN diagnosis ON animal.IDanimal = diagnosis.IDanimal); 
+
+#find all dogs
+SELECT customer.fname, customer.lname, animal.gender, animal.species, animal.name, diagnosis.evaluation
+FROM ((customer
+INNER JOIN animal ON customer.IDcustomer = animal.IDcustomer)
+INNER JOIN diagnosis ON animal.IDanimal = diagnosis.IDanimal)
+where animal.species like 'dog'; 
+
+
+#find all female dogs
+SELECT customer.fname, customer.lname, animal.gender, animal.species, animal.name, diagnosis.evaluation
+FROM ((customer
+INNER JOIN animal ON customer.IDcustomer = animal.IDcustomer)
+INNER JOIN diagnosis ON animal.IDanimal = diagnosis.IDanimal)
+where animal.species like 'dog'; 

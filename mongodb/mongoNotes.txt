@@ -1,0 +1,145 @@
+
+
+################ node.js mongodb create collection 
+
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/mydb";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  console.log("Database created!");
+  db.close();
+});
+
+
+################ node.js mongodb find one 
+
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  var dbo = db.db("mydb");
+  dbo.collection("customers").findOne({}, function(err, result) {
+    if (err) throw err;
+    console.log(result.name);
+    db.close();
+  });
+});
+
+
+################ node.js mongodb find all
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  var dbo = db.db("mydb");
+  dbo.collection("customers").find({}).toArray(function(err, result) {
+    if (err) throw err;
+    console.log(result);
+    db.close();
+  });
+});
+
+
+##### start mongo
+
+mongo 
+
+show dbs
+
+use webdb
+
+db
+
+show collections;
+
+db.createCollection("customer");
+
+filter and projections
+
+db.createUser({
+	user: "brad",
+	pwd: "1234",
+	roles: []
+
+});
+
+db.customers.insert({first_ne
+
+db.customers.update({first_name:"Steven"},{$set:{gender:"male"}});
+db.customers.updateMany
+
+variables 
+	$unset:age
+	$rename:{field:newname}
+
+
+db.customers.remove
+
+
+db.customers.insert([
+	{	
+		firstName: "Troy",
+		lastName: "Makons",
+		gender: "Male"
+
+
+#### mongo structure
+
+{
+	first_name: "John",
+	last_name: "Doe",
+	memberships: ["mem1", "mem2"],
+	address: {
+		street: "4 main st",
+		city: "Boston"
+	}
+	contacts: [
+		{name: "Brad", relationship: "friend"}
+	]
+}
+
+
+
+#####filters and projections
+
+
+##########first sentry: reverse enigeer 
+
+
+db.products.insert([
+	{"sku" : "C55000", "title" : "Hershey's Bar", "description" : "The golden standard for cnady", "price" : 1.99},
+	{"sku" : "C44000", "title" : "Twix Bar", "description" : "Left twix is the best", "price" : 1.10},
+	{"sku" : "C33000", "title" : "Chocolate Santa", "description" : "Santa has never been so good", "price" : 10.00},
+	{"sku" : "C28000", "title" : "Chocolate Rabbit", "description" : "Leftover from Easter, but still so good", "price" : 8.50},
+	{"sku" : "C22000", "title" : "Chocolate Toaster Tarts", "description" : "Tarts but made of chocolate", "price" : "2.20"},
+
+	{"sku" : "C30000", "title" : "Chocolate Mousse", "description" : "A rich, gold example of a chocolate dessert", "price" : 3.00},
+	{"sku" : "C23000", "title" : "Chocolate Fondue", "description" : "Fondue full of chocolately goodness", "price" : 3.20},
+	{"sku" : "C61000", "title" : "Chocolate Layer Cake", "description" : "Cake layered with cholcolate assortments",  "price" : 6.10},
+	{"sku" : "M43000", "title" : "Mint Chocolate Milk Shake", "description" : "A creamy, delicious surprise",  "price" : 4.30}
+]);
+#############3second sentry: query
+
+db.products.find();
+
+db.products.find({"price": {$gt: 5.00, $lt: 9.00}},{_id:0, description:0});
+
+
+###### mongodb copy old sql database
+
+db.customers.insert([
+
+	{"fname": "John", "mname": "Winston", "lname": "Maximus" ,"address":"123 West Side St" , "city": "Preston", "state":"ID", "zip":"83646", "phone":"2088521832", "entrant":"JohnH"},
+	{"fname": "Larry", "mname": "Max", "lname": "Jefferson" ,"address":"292 N Side St" , "city": "Lewiston", "state":"ID", "zip":"81382", "phone":"2089308293", "entrant":"JohnH"},
+	{"fname": "Jeffrey", "mname": "Lewis", "lname": "Johnson" ,"address":"98302 W Longterm Dr" , "city": "Stanley", "state":"ID", "zip":"81029", "phone":"2089203981", "entrant":"JohnH"},
+	{"fname": "Julie", "mname": "Terry", "lname": "Larsen" ,"address":"8382 N Trail Creek Dr" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Michael", "mname": "Richard", "lname": "Harrison" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Brooklynn", "mname": "Helga", "lname": "Sokolov" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "John", "mname": "John", "lname": "Smith" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Steve", "mname": "Franklin", "lname": "Jobs" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Brielle", "mname": "Mildred", "lname": "Lewis" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Larry", "mname": "Helga", "lname": "Maximus" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"}
+]);

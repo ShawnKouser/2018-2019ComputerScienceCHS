@@ -1,0 +1,11 @@
+
+(NULL, 'John', NULL, 'Williams', '2957 N. Courtyard Way', 'Meridian', 'ID', '83646', '208-769-2943', 'ethana'),
+(NULL, 'Sarah', NULL, 'Mackenzie', '4822 Eagle Rd.', 'Meridian', 'ID', '83642', '208-492-5783', 'ethana'),
+(NULL, 'Nick', 'Edward', 'Gamber', '972 E. Horse Dr.', 'Boise', 'ID', '83701', '208-899-3856', 'ethana'),
+(NULL, 'Jordan', 'Anne', 'Leavit', '2208 E. Cubert Ct.', 'Boise', 'ID', '83701', '208-984-1764', 'ethana'),
+(NULL, 'Michael', 'Nick', 'Ford', '3962 S. Ontario St.', 'Meridian', 'ID', '83646', '208-834-7452', 'ethana'),
+(NULL, 'Hannah', NULL, 'Smith', '3845 W. Susan St.', 'Meridian', 'ID', '83642', '208-396-2259', 'ethana'),
+(NULL, 'Carter', 'Samuel', 'Licen', '9682 E. Armadillo Way', 'Meridian', 'ID', '83646', '208-195-8235', 'ethana'),
+(NULL, 'April', 'Shirly', 'Milford', '859 E. Horse Dr.', 'Meridian', 'ID', '83701', '208-956-2386', 'ethana'),
+(NULL, 'Daniel', NULL, 'Mulligan', '1654 S. Lexington Dr.', 'Meridian', 'ID', '83642', '208-387-3977', 'ethana'),
+(NULL, 'Nicole', NULL, 'Nickson', '1254 W. Kirkland Rd.', 'Meridian', 'ID', '83642', '208-633-2583', 'ethana'),

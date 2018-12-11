@@ -1,0 +1,16 @@
+
+db.customer.insert([
+
+	{"fname": "John", "mname": "Winston", "lname": "Maximus" ,"address":"123 West Side St" , "city": "Preston", "state":"ID", "zip":"83646", "phone":"2088521832", "entrant":"JohnH"},
+	{"fname": "Larry", "mname": "Max", "lname": "Jefferson" ,"address":"292 N Side St" , "city": "Lewiston", "state":"ID", "zip":"81382", "phone":"2089308293", "entrant":"JohnH"},
+	{"fname": "Jeffrey", "mname": "Lewis", "lname": "Johnson" ,"address":"98302 W Longterm Dr" , "city": "Stanley", "state":"ID", "zip":"81029", "phone":"2089203981", "entrant":"JohnH"},
+	{"fname": "Julie", "mname": "Terry", "lname": "Larsen" ,"address":"8382 N Trail Creek Dr" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Michael", "mname": "Richard", "lname": "Harrison" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Brooklynn", "mname": "Helga", "lname": "Sokolov" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "John", "mname": "John", "lname": "Smith" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Steve", "mname": "Franklin", "lname": "Jobs" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Brielle", "mname": "Mildred", "lname": "Lewis" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"},
+	{"fname": "Larry", "mname": "Helga", "lname": "Maximus" ,"address":"21932 S Otherside Wy" , "city": "Boise", "state":"ID", "zip":"38512", "phone":"2089019823", "entrant":"JohnH"}
+]);
+
+

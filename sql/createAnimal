@@ -1,0 +1,6 @@
+create table 'animal' (
+    'IDanimal' int(11) not null auto_increment,
+    'species' varchar(50) not null,
+    'name' varchar(50) default null,
+    'gender' char(1) not null,
+    

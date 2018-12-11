@@ -1,0 +1,11 @@
+
+db.customer.insert({fname:"Sam", mname:"D", lname:"Doe", address:"1234 W Street", city:"Meridian", state:"ID", zip:"83642", phone:"(208) 456-7890", entrant:"Justin F"});
+db.customer.insert({fname:"Jennifer", mname:"J", lname:"Doe", address:"1234 W Street", city:"Meridian", state:"ID", zip:"83642", phone:"(208) 456-0987", entrant:"Justin F"});
+db.customer.insert({fname:"Mary", mname:"M", lname:"Lamb", address:"8363 W Franklin Rd", city:"Boise", state:"ID", zip:"83709", phone:"(208) 658-9670", entrant:"Justin F"});
+db.customer.insert({fname:"Jay", lname:"Smith", address:"3597 E Monarch Sky Ln", city:"Meridian", state:"ID", zip:"83646", phone:"(208) 501-8207", entrant:"Justin F"});
+db.customer.insert({fname:"Mark", mname:"M", lname:"Mcgovern", address:"350 N Milwaukee St", city:"Boise", state:"ID", zip:"83704", phone:"(208) 378-4400", entrant:"Justin F"});
+db.customer.insert({fname:"Alex", mname:"N", lname:"Hobson", address:"1701 E Fairview Ave", city:"Meridian", state:"ID", zip:"83642", phone:"(208) 629-8624", entrant:"Justin F"});
+db.customer.insert({fname:"Steven", mname:"D", lname:"Web", address:"1326 W Cherry Ln", city:"Meridian", state:"ID", zip:"83642", phone:"(208) 888-4451", entrant:"Justin F"});
+db.customer.insert({fname:"Dan", mname:"A", lname:"Booth", address:"4051 E Fairview Ave", city:"Meridian", state:"ID", zip:"83642", phone:"(208) 373-7908", entrant:"Justin F"});
+db.customer.insert({fname:"Anna", mname:"M", lname:"Dew", address:"795 W Overland Rd", city:"Meridian", state:"ID", zip:"83642", phone:"(208) 917-6902", entrant:"Justin F"});
+db.customer.insert({fname:"Zach", mname:"B", lname:"Book", address:"5001 N Ten Mile Rd", city:"Meridian", state:"ID", zip:"83646", phone:"(208) 982-3045", entrant:"Justin F"});

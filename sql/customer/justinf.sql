@@ -1,0 +1,11 @@
+
+(NULL, 'Sam', 'D', 'Doe', '1234 W Street', 'Meridian', 'ID', '83642', '(208) 456-7890', 'Justin F'), 
+(NULL, 'Jennifer', 'J', 'Doe', '1234 W Street', 'Meridian', 'ID', '83642', '(208) 456-0987', 'Justin F'), 
+(NULL, 'Mary', 'M', 'Lamb', '8363 W Franklin Rd', 'Boise', 'ID', '83709', '(208) 658-9670', 'Justin F'), 
+(NULL, 'Jay', NULL, 'Smith', '3597 E Monarch Sky Ln', 'Meridian', 'ID', '83646', '(208) 501-8207', 'Justin F'), 
+(NULL, 'Mark', 'M', 'Mcgovern', '350 N Milwaukee St', 'Boise', 'ID', '83704', '(208) 378-4400', 'Justin F'),
+(NULL, 'Alex', 'N', 'Hobson', '1701 E Fairview Ave', 'Meridian', 'ID', '83642', '(208) 629-8624', 'Justin F'),
+(NULL, 'Steven', 'D', 'Web', '1326 W Cherry Ln', 'Meridian', 'ID', '83642', '(208) 888-4451', 'Justin F'),
+(NULL, 'Dan', 'A', 'Booth', '4051 E Fairview Ave', 'Meridian', 'ID', '83642', '(208) 373-7908', 'Justin F'),
+(NULL, 'Anna', 'M', 'Dew', '795 W Overland Rd', 'Meridian', 'ID', '83642', '(208) 917-6902', 'Justin F'),
+(NULL, 'Zach', 'B', 'Book', '5001 N Ten Mile Rd', 'Meridian', 'ID', '83646', '(208) 982-3045', 'Justin F'),

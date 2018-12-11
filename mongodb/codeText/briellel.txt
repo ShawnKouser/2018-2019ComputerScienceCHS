@@ -1,0 +1,10 @@
+db.customer.insert([{fname:"Chris", mname:"Ted", lname:"Boil", address:"134 Actor St.", city:"Boise", state:"ID", zip:"83713", phone:"2081348765", entrant:"BrielleL"},
+{fname:"Bob", mname:"Dan", lname:"Cruz", address:"1678 Homie Dr.", city:"Boise", state:"ID", zip:"83713",phone:"2086789834", entrant:"BrielleL"},
+{fname:"Matt", mname:"Ted", lname:"Taylor", address:"189 Main St.", city:"Boise", state:"ID", zip:"83713", phone:"2081329765", entrant:"BrielleL"},
+{fname:"Trevor", mname:"Lee", lname:"Smith", address:"5678 Party St.", city:"Boise", state:"ID", zip:"83713", phone:"2083249834", entrant:"BrielleL"},
+{fname:"Veronica", mname:"Susan", lname:"Jones", address:"134 Ocean Ave.", city:"Boise", state:"ID", zip:"83713", phone:"2081348666", entrant:"BrielleL"},
+{fname:"Timmy", mname:"Rob", lname:"Wilson", address:"1234 Bank Dr.", city:"Boise", state:"ID", zip:"83713", phone:"2086689834", entrant:"BrielleL"},
+{fname:"Derek", mname:"Billy", lname:"Walker", address:"7563 Sticker St.", city:"Boise", state:"ID", zip:"83713", phone:"2081349900", entrant:"BrielleL"},
+{fname:"John", mname:"Tim", lname:"Stevenson", address:"2257 Elmspring Dr.", city:"Boise", state:"ID",zip:"83713", phone:"2086789379", entrant:"BrielleL"},
+{fname:"Betty", mname:"Rose", lname:"Simpson", address:"1843 Edna St.", city:"Boise", state:"ID",zip:"83713", phone:"2084458965", entrant:"BrielleL"},
+{fname:"Willy", mname:"Quinn", lname:"Daniels", address:"3379 Juliet Dr.", city:"Boise", state:"ID", zip:"83713", phone:"2084389224", entrant:"BrielleL"}]);

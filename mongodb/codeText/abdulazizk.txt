@@ -1,0 +1,19 @@
+db.customer.insert({"fname":"abdulaziz", "mname":"", "lname":"kodirov", "address":"1234 W Street", "city":"Meridian", "state":"ID", "zip":"12345", "phone":"(123)456-7890", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Molly", "mname":"", "lname":"Stevenson", "address":"2312 N Winterfell", "city":"Waukisha", "state":"WI", "zip":"53189", "phone":"(203)256-7290", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Brandon", "mname":"S", "lname":"Stark", "address":"2312 S Old Town", "city":"Appleton", "state":"WI", "zip":"54911", "phone":"(203)451-1190", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Steven", "mname":"J", "lname":"Goodman", "address":"4212 N Champions Ave", "city":"Kenosha", "state":"WI", "zip":"54483", "phone":"(903)756-7110", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Arya", "mname":"", "lname":"Stark", "address":"2142 N River Ave", "city":"Riverside", "state":"CA", "zip":"92507", "phone":"(244)121-2451", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Rickon", "mname":"", "lname":"Jhonson", "address":"4612 W Deadman", "city":"Winterfell", "state":"WI", "zip":"40421", "phone":"(200)121-3212", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Jhonny", "mname":"", "lname":"Sugarman", "address":"3475 N Example Way", "city":"Meridian", "state":"ID", "zip":"83646", "phone":"(208)900-7887", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Khalid", "mname":"D", "lname":"Davronov", "address":"4536 S Trushwi", "city":"Hollywood", "state":"CA", "zip":"90762", "phone":"(911)213-5212", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Mohizoda", "mname":"", "lname":"Kodirova", "address":"3721 N Pankratz Way", "city":"Meridian", "state":"ID", "zip":"83642", "phone":"(208)231-4521", "entrant":"abdulazizk"})
+
+db.customer.insert({"fname":"Jamshid", "mname":"", "lname":"Kodirov", "address":"8978 E Albertinkatu Ave W", "city":"Shawn Town", "state":"IL", "zip":"60173", "phone":"(224)456-3280", "entrant":"abdulazizk"})

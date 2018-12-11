@@ -1,0 +1,108 @@
+
+db.customer.insert(
+	[{
+		fname:'John', 
+		lname:'Williams',
+		address:'2957 N. Courtyard Way',
+		city:'Meridian',
+		state:'ID',
+		zip:'83646',
+		phone:'208-769-2943',
+		entrant:'ethana'
+	},
+	{
+		fname:'Sarah', 
+		lname:'Mackenzie',
+		address:'4822 Eagle Rd.',
+		city:'Meridian',
+		state:'ID',
+		zip:'83642',
+		phone:'208-769-2943',
+		entrant:'ethana'
+	},
+	{
+		fname:'Nick', 
+		mname:'Edward',
+		lname:'Gamber',
+		address:'972 E. Horse Dr.',
+		city:'Boise',
+		state:'ID',
+		zip:'83701',
+		phone:'208-899-3856',
+		entrant:'ethana'
+	},
+	{
+		fname:'Jordan', 
+		mname:'Anne',
+		lname:'Leavit',
+		address:'2208 E. Cuber Ct.',
+		city:'Boise',
+		state:'ID',
+		zip:'83701',
+		phone:'208-834-7452',
+		entrant:'ethana'
+	},
+	{
+		fname:'Michael', 
+		mname:'Nick',
+		lname:'Ford',
+		address:'3962 S. Ontario St.',
+		city:'Meridian',
+		state:'ID',
+		zip:'83646',
+		phone:'',
+		entrant:'ethana'
+	},
+	{
+		fname:'Hannah', 
+		lname:'Smith',
+		address:'3845 W. Susan St.',
+		city:'Meridian',
+		state:'ID',
+		zip:'83642',
+		phone:'208-396-2259',
+		entrant:'ethana'
+	},
+	{
+		fname:'Carter', 
+		mname:'Samuel',
+		lname:'Licen',
+		address:'9682 E. Armadillo Way',
+		city:'Meridian',
+		state:'ID',
+		zip:'83646',
+		phone:'208-195-8235',
+		entrant:'ethana'
+	},
+	{
+		fname:'April', 
+		mname:'Shirly',
+		lname:'Milford',
+		address:'59 E. Horse Dr.',
+		city:'Meridian',
+		state:'ID',
+		zip:'83701',
+		phone:'208-956-2386',
+		entrant:'ethana'
+	},
+	{
+		fname:'Daniel', 
+		lname:'Mulligan',
+		address:'1654 S. Lexington Dr.',
+		city:'Meridian',
+		state:'ID',
+		zip:'83642',
+		phone:'208-387-3977',
+		entrant:'ethana'
+	},
+	{
+		fname:'Nicole', 
+		lname:'Nickson',
+		address:'1254 W. Kirkland Rd.',
+		city:'Meridian',
+		state:'ID',
+		zip:'83642',
+		phone:'208-633-2583',
+		entrant:'ethana'
+	}]
+);

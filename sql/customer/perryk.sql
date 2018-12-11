@@ -1,0 +1,11 @@
+(NULL, 'George', 'Peter', 'Aberston', '674 E Pond St.', 'Boise', 'ID', '83709', '208-132-5476', 'Perry K'), 
+(NULL, 'Mark', 'Lee', 'Mandel', '456 Park Ave', 'Boise', 'ID', '73711', '208-539-4912', 'Perry K'),
+(NULL, 'Jeffrey', 'Austin', 'Larsen', '342 N ReedField St.', 'Boise', 'ID', '83756', '208-452-5443', 'Perry K'), 
+(NULL, 'James', 'Pane', 'Jane', '234 N Northwood Ave.', 'Boise', 'ID', '83799', '208-123-5134', 'Perry K'),
+(NULL, 'Madjaser', 'Ubret', 'Paine', '3412 N Silktrough Way.', 'Boise', 'ID', '83735', '208-341-3128', 'Perry K'), 
+(NULL, 'Tress', 'Hena', 'Jumbly', '63900 W Trekbrush Lane.', 'Boise', 'ID', '83722', '208-321-1324', 'Perry K'),
+(NULL, 'Isbella', 'Utber', 'Trond', '5973 S Troheim Way.', 'Boise', 'ID', '83712', '208-213-4312', 'Perry K'), 
+(NULL, 'Brosh', 'Bun', 'Blugshire', '5413 E BrunBire St.', 'Boise', 'ID', '83720', '208-132-5647', 'Perry K'),
+(NULL, 'Estra', 'Yun', 'Bee', '5423 E Yentree Ln.', 'Boise', 'ID', '83705', '208-492-6325', 'Perry K'), 
+(NULL, 'Ren', 'Trein', 'Qin', '452 N Westada Way.', 'Boise', 'ID', '83725', '208-632-6234', 'Perry K'),
+

@@ -1,0 +1,10 @@
+db.customer.insert({fname:"Frank",mname:"Ron",lname:"Fitzgerald",address:"43478 N. 10th St.",city:"Los Angeles",state:"CA",zip:"90005",phone:"323-554-3409",entrant:"zacharys"});
+db.customer.insert({fname:"Ron",mname:"Alexander",lname:"Thomson",address:"45338 N. Rockchester Ave.",city:"Los Angeles",state:"CA",zip:"90005",phone:"323-237-3568",entrant:"zacharys"});
+db.customer.insert({fname:"Juan",mname:"David",lname:"Igelsia",address:"23456 W. Tower St.",city:"New York City",state:"NY",zip:"10020",phone:"858-786-9090",entrant:"zacharys"});
+db.customer.insert({fname:"Mike",mname:"Harry",lname:"Johnson",address:"45634 W. Tower St.",city:"New York City",state:"NY",zip:"10020",phone:"718-713-9890",entrant:"zacharys"});
+db.customer.insert({fname:"Richard",mname:"Harry",lname:"Johnson",address:"45634 W. Tower St.",city:"New York City",state:"NY",zip:"10020",phone:"718-786-9090",entrant:"zacharys"});
+db.customer.insert({fname:"Zachary",mname:"David",lname:"Scher",address:"12457 W. Chinden Rd.",city:"Boise",state:"ID",zip:"83713",phone:"208-647-8346",entrant:"zacharys" });
+db.customer.insert({fname:"Thomas",mname:"Ron",lname:"Fitzgerald",address:"45678 N. Seplevda Ave.",city:"Los Angeles",state:"CA",zip:"90005",phone:"323-567-3478",entrant:"zacharys" });
+db.customer.insert({fname:"Mina",mname:"Sabine",lname:"Luna",address:"45634 W. Sunset Dr.",city:"San Diego",state:"CA",zip:"22434",phone:"858-786-9090",entrant:"zacharys" });
+db.customer.insert({fname:"Sabina",mname:"Herminie",lname:"Luna",address:"45634 W. Sunset Dr.",city:"San Diego",state:"CA",zip:"22434",phone:"858-345-3490",entrant:"zacharys" });
+db.customer.insert({fname:"John",mname:"Gerald",lname:"Smith",address:"67489 W. London St.",city:"San Diego",state:"CA",zip:"22434",phone:"858-345-6754",entrant:"zacharys" });

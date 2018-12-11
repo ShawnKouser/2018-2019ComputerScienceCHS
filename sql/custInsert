@@ -1,0 +1,11 @@
+INSERT INTO `customer` (`IDcustomer`, `fname`, `mname`, `lname`, `address`, `city`, `state`, `zip`, `phone`, `entrant`)
+VALUES 
+('John', 'Winston', 'Maximus', '123 West Side St', 'Preston', 'ID', '83646', '2088521832', 'MichaelC'),
+('Larry','Max','Jefferson','292 N Side St','Lewiston','ID','81382','2089308293','MichaelC'),
+('Jeffrey','Lewis','Johnson','98302 W Longterm Dr','Stanley','ID','81029','2089203981','MichaelC'),
+('Julie','Terry','Larsen','8382 N Trail Creek Dr','Boise','ID','38512','2089019823','MichaelC'),
+('Michael','Richard','Harrison','21932 S Otherside Wy','Seattle','WA','12381','5084282845','MichaelC'),
+('Brooklynn','Helga','Sokolov','2 Siberia St','Siberia','TX','88435','6050812821','MichaelC'),
+('John','John','Smith','10 Normal Ave','Normalton','WY','63182','4082810255','MichaelC'),
+('Steve','Franklin','Jobs','12 Sacramento Pl', 'Sacramento', 'CA','28201','5048334258','MichaelC'),
+('Brielle','Mildred','Lewis','12400 W McMillan Rd','Boise','ID','83713','2083812852','MichaelC'),

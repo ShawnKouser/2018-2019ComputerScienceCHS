@@ -1,0 +1,30 @@
+body{
+    margin: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: #87CEEB;
+
+    background-image: url('stripes-background.png');
+}
+h1{
+    font-family: 'Lobster', cursive;
+}
+p{
+   font-family: 'Bree Serif', serif;
+}
+text-area{
+    margin: 4px;
+    padding: 4px;
+}
+/*
+font-family: 'Mali', cursive;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Charmonman', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Righteous', cursive;
+font-family: 'Teko', sans-serif;
+*/

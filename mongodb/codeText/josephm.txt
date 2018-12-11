@@ -1,0 +1,115 @@
+
+
+db.customer.insert([
+    {
+        "fname":"Roger",
+        "mname":"P",
+        "lname":"Smith",
+        "address":"578 N South St.",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"83709",
+        "phone":"208-766-4221",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Thomas",
+        "mname":"L",
+        "lname":"Peter",
+        "address":"454 Ground Dr.",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"83701",
+        "phone":"2086578345",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Gabe",
+        "mname":"L",
+        "lname":"Newell",
+        "address":"327 Steam Ave.",
+        "city":"Seattle",
+        "state":"WA",
+        "zip":"98126",
+        "phone":"425-889-9642",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Perry",
+        "lname":"Karlsen",
+        "address":"12400 W McMillan",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"83713",
+        "phone":"208-855-4500",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Cash",
+        "lname":"Nida",
+        "address":"12400 W McMillan",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"83713",
+        "phone":"208-855-4500",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"George",
+        "mname":"Peter",
+        "lname":"Albertson",
+        "address":"674 E Pond St.",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"83709",
+        "phone":"2087664323",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Jennifer",
+        "mname":"Lee",
+        "lname":"Young",
+        "address":"433 N West Ave.",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"83701",
+        "phone":"208-566-6747",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Ian",
+        "mname":"Pell",
+        "lname":"West",
+        "address":"784 Westwoods St.",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"83705",
+        "phone":"(208)032-6707",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Ron",
+        "mname":"Tristan",
+        "lname":"Wilson",
+        "address":"9476 N Yorkshire Way",
+        "city":"New York City",
+        "state":"NY",
+        "zip":"10029",
+        "phone":"7186054435",
+        "entrant":"Joseph M"
+    },
+    {
+        "fname":"Lauren",
+        "mname":"Honduras",
+        "lname":"Williamson",
+        "address":"457 Polermy Ave.",
+        "city":"Boise",
+        "state":"ID",
+        "zip":"84711",
+        "phone":"2085574737",
+        "entrant":"Joseph M"
+    }
+]);
+
+
+
