@@ -1,0 +1,11 @@
+write up
+
+#1) make project directory called ninjagold
+#2) navigate inside & "npm init -y"
+#3) recreate this file structure
+/NinjaGold
+	/node_modules (auto-generated)
+	/static 
+	/templates
+	server.js
+	package.json (auto-generated)
